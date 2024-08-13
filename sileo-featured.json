@@ -1,0 +1,25 @@
+{
+  "class": "FeaturedBannersView",
+  "itemSize": "{296, 148}",
+  "itemCornerRadius": 10,
+  "banners": [
+    {
+        "url": "https://raw.githubusercontent.com/sPEeDMx/speedmx.github.io/master/depictions/screenshots/com.speedmx.afterhours12/ss.png",
+        "title": "AfterHours Mod12",
+        "package": "com.speedmx.afterhours12",
+        "hideShadow": false
+    },
+	{
+        "url": "https://raw.githubusercontent.com/sPEeDMx/speedmx.github.io/master/depictions/screenshots/com.speedmx.immaterialismod/ss.png",
+        "title": "Immaterialis Mod",
+        "package": "com.speedmx.immaterialismod",
+        "hideShadow": false
+    },
+	{
+        "url": "https://raw.githubusercontent.com/sPEeDMx/speedmx.github.io/master/depictions/screenshots/com.speedmx.fcbarcamod/ss.png",
+        "title": "FCbarca Mod",
+        "package": "com.speedmx.fcbarcamod",
+        "hideShadow": false
+    }
+  ]
+}

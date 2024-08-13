@@ -1,0 +1,105 @@
+{
+	"minVersion": "0.1",
+	"headerImage": "https://raw.githubusercontent.com/sPEeDMx/speedmx.github.io/master/images/banner.jpg",
+	"tintColor": "#1f2e60",
+	"tabs": [
+       {
+          "tabname":"รายละเอียด",
+          "views":[
+             {
+                "title":"Replaces carrier text with an image !",
+                "useBoldText":true,
+                "useBottomMargin":false,
+				"alignment":1,
+                "class":"DepictionSubheaderView"
+             },
+             {
+                "itemCornerRadius":6,
+                "itemSize":"{160, 346.4533333333333}",
+                "screenshots":[
+                   {
+                      "accessibilityText":"Screenshot",
+                      "url":"https://speedmx.github.io/depictions/screenshots/com.alexzielenski.zeppelin/ss.png",
+                      "fullSizeURL":"https://speedmx.github.io/depictions/screenshots/com.alexzielenski.zeppelin/ss.png"
+                   }
+                ],
+                "class":"DepictionScreenshotsView"
+             },
+             {
+                "class":"DepictionSeparatorView"
+             },
+             {
+                "title":"รายละเอียดแพ็คเกจ",
+                "class":"DepictionHeaderView"
+             },
+             {
+                "title":"เวอร์ชั่น",
+                "text":"2.1.1-1",
+                "class":"DepictionTableTextView"
+             },
+             {
+                "title":"วันที่อัพเดท",
+                "text":"21 พฤษภา 62",
+                "class":"DepictionTableTextView"
+             },
+             {
+                "title":"ผู้พัฒนา",
+                "text":"Alex Zielenski",
+                "class":"DepictionTableTextView"
+             },
+             {
+                "class":"DepictionSeparatorView"
+             },
+             {
+                "spacing":12,
+                "class":"DepictionSpacerView"
+             },
+             {
+                "title":"ติดต่อผู้พัฒนา",
+                "action":"depiction-https://speedmx.github.io/sileo/support.json",
+                "class":"DepictionTableButtonView"
+             },
+             {
+                "spacing":12,
+                "class":"DepictionSpacerView"
+             },
+             {
+                "URL":"https://speedmx.github.io/images/profile.png",
+                "width":50,
+                "height":50,
+                "alignment":1,
+                "cornerRadius":20,
+                "class":"DepictionImageView"
+             },
+             {
+                "spacing":12,
+                "class":"DepictionSpacerView"
+             }
+          ],
+			"class": "DepictionStackView"
+		},
+		{
+			"tabname": "การเปลี่ยนแปลง",
+			"views": [
+				{
+					"title": "2.1.1-1",
+					"useBoldText": true,
+					"useBottomMargin": true,
+					"class": "DepictionSubheaderView"
+				},
+				{
+					"markdown": "\t\n\u2022 Update plus some other stuff",
+					"useSpacing": false,
+					"class": "DepictionMarkdownView"
+				},
+				{
+					"markdown": "<small style=\"color: #999; margin-top: -8px;\">21 พฤษภา 62</small>",
+					"useRawFormat": true,
+					"class": "DepictionMarkdownView"
+				}
+			],
+			"class": "DepictionStackView"
+		}
+	],
+	"class": "DepictionTabView"
+}
